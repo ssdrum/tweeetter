@@ -1,0 +1,8 @@
+.commentsContainer {
+   background: var(--third);
+   margin-top: 15px;
+}
+
+.commentsContainer:last-child {
+   margin-bottom: 0;
+}

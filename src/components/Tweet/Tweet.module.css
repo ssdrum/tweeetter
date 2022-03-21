@@ -1,0 +1,64 @@
+.container {
+  background-color: var(--third);
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header > h4 {
+  margin-right: 15px;
+}
+
+.header > small {
+  color: rgb(180, 180, 180);
+}
+
+.imgContainer {
+  padding-right: 10px;
+}
+
+.imgContainer > img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.title {
+  margin-bottom: 3px;
+}
+
+.stats {
+  margin-top: 13px;
+  display: flex;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.likes i {
+  cursor: pointer;
+}
+
+.likes small {
+  margin-left: 10px;
+}
+
+.comments {
+  margin-left: 40px;
+}
+
+.comments i {
+  cursor: pointer;
+}
+
+.comments small {
+  margin-left: 10px;
+}

@@ -1,0 +1,25 @@
+.modal {
+   background: var(--third);
+   max-width: 640px;
+   margin: 150px auto auto auto;
+   padding: 15px;
+   border-radius: 5px;
+}
+
+.tweet {
+   margin-top: 15px;
+   display: flex;
+}
+
+.body {
+   margin-left: 15px;
+}
+
+h4 {
+   font-weight: 700;
+}
+
+.header {
+   padding-bottom: 15px;
+   border-bottom: 1px solid var(--secondary);
+}

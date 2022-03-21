@@ -1,0 +1,72 @@
+.nav {
+   display: flex;
+   align-items: center;
+}
+
+.nav > h1 {
+   margin-left: 15px;
+}
+
+.iconContainer {
+   background-color: var(--secondary);
+   padding: 10px;
+   border-radius: 50%;
+   transition: background-color 0.2s;
+   margin-right: 5px;
+}
+
+.iconContainer:hover {
+   background-color: var(--third);
+}
+
+.container {
+   background: var(--third);
+   padding: 15px;
+   margin-top: 20px;
+   border-radius: 5px;
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.header > small {
+   color: rgb(180, 180, 180);
+}
+
+.header > h4 {
+   font-weight: 800;
+   margin-right: 15px;
+}
+
+.header > img {
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+.tweetText {
+   font-size: 23px;
+   margin-bottom: 10px;
+}
+
+.stats {
+   border-top: 1px solid var(--secondary);
+   border-bottom: 1px solid var(--secondary);
+   padding: 15px 0;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.comments > h4 {
+   margin-left: 5px;
+   font-weight: 700;
+}
+
+/* Modal styling */
+.modal {
+   color: #000;
+}

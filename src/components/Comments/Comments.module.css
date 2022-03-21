@@ -1,0 +1,16 @@
+.comments {
+   display: flex;
+   align-items: center;
+}
+
+.iconContainer {
+   background-color: var(--third);
+   padding: 10px;
+   border-radius: 50%;
+   transition: background-color 0.2s;
+   margin-right: 5px;
+}
+
+.iconContainer:hover {
+   background-color: var(--secondary);
+}
