@@ -2,7 +2,7 @@
 
 Social network App - React
 
-### Live at https://sdrummolo.github.io/tweeetter/
+### Live at https://ssdrum.github.io/tweeetter/
 
 ### Usage:
 
